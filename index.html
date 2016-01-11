@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>AddTab</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="left-column">
+        <h1>Add your own tab</h1>
+
+       <!-- <label for="index">Index:</label>
+        <input type="text" id="index" value=""/>-->
+
+        <label>Title:</label>
+        <input type="text" class="title" value=""/>
+        <span class="error ttl">Invalid data!</span>
+
+        <br/>
+
+        <label>Html content:</label>
+        <br/>
+        <textarea class="content"></textarea>
+        <span class="error cnt">Invalid data!</span>
+        <br/>
+
+        <button id="add">Add</button>
+    </div>
+
+    <button id="collapse">Collapse</button>
+
+    <div class="right-column">
+
+        <ul id="tabs">
+
+        </ul>
+
+
+    </div>
+<script src="javaScript.js"></script>
+
+</body>
+</html>

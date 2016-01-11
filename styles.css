@@ -1,0 +1,71 @@
+input{
+    margin: 10px;
+}
+
+label{
+    margin: 10px;
+}
+
+#add{
+    margin: 10px;
+    padding: 0px 30px;
+
+}
+
+.left-column{
+    width: 320px;
+    float: left;
+
+}
+.right-column{
+    float: right;
+    width: 50%;
+}
+
+#tabs {
+    list-style: none;
+    position: relative;
+}
+
+#tabs li {
+    display: inline-block;
+     margin-right: 5px;
+}
+
+#tabs li a {
+    display: block;
+    padding: 5px 15px;
+    border: 2px solid black;
+    background-color: #eee;
+}
+
+#tabs li div {
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    margin-top: -2px;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.hide {
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.width{
+    width: 100%;
+}
+
+.errorShow{
+    opacity: 1;
+    color: red;
+}
+
+.error{
+    opacity: 0;
+}
